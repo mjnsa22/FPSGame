@@ -1,0 +1,622 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680576614957269, "dur":1273, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576614958552, "dur":180, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680576614958757, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680576614958780, "dur":243, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680576614959055, "dur":644, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576614959699, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406233, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406321, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406337, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406341, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406347, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406351, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406357, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406359, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406365, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406381, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615406397, "dur":2300, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680576614959646, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614959706, "dur":4879, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614964671, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680576614964672, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614964783, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680576614964785, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614964845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614966005, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680576614968323, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680576614968340, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614968378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614968661, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680576614969963, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680576614969975, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614970016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614970022, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680576614970850, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680576614970863, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614970902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614970909, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680576614971882, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680576614971894, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614971990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614971997, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680576614972858, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1680576614972875, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614972913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614972920, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974040, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974057, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974127, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974941, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974953, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614974998, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1680576614975923, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576614975939, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614975984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576614976244, "dur":284834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615261098, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615261253, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615261302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615261308, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615262161, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615262347, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615262398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615262405, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615263335, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615263536, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615263586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615263609, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615264603, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615264784, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615264835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615264841, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615265672, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615265809, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615265855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615265879, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615266653, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615266782, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615266884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615266890, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615267665, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615267701, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615267742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615267747, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615268691, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615268795, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615268841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615268848, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615272017, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615272062, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615272106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615272136, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615273436, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615273508, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615273560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615273568, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615274632, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615274677, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615274720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615274726, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615275828, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615275866, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615275911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615275917, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615277296, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615277334, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615277418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615277424, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615280261, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615280304, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615280872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615280883, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615282131, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615282182, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615282226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615282231, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615283563, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615283615, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615283656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615283662, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680576615287469, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1680576615287514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615287519, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1680576615289809, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1680576615289957, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615290003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615290010, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1680576615290747, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1680576615290792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615290796, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1680576615292500, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1680576615292554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615292562, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1680576615295307, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1680576615295612, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615295668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680576615295679, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1680576615296705, "dur":109531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614959651, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614959709, "dur":4881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614964595, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680576614964623, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614964677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614967180, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680576614968535, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680576614968546, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614968637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614968954, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680576614969862, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680576614969883, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614969922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614969976, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680576614971260, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680576614971276, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614971449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614971510, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680576614973108, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1680576614973120, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614973369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614973377, "dur":4259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1680576614977656, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1680576614977670, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614977713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576614977719, "dur":193912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1680576615171651, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615171712, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615171781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615171998, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615173048, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615173092, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615173178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615173250, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615174459, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615174498, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615174549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615174556, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615175694, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615175760, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615175813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615175819, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615176676, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615176865, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615176921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615176929, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615177888, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615177933, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615178031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615178037, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615178942, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615179005, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615179050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615179057, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615180209, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615180264, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615180306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615180313, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615181243, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615181308, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615181349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615181357, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615182399, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615182449, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615182506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615182513, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615183533, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615183590, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615183630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615183637, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615184767, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615184823, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615184872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615184879, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615185833, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615185875, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615185930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615185937, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615187129, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615187167, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615187211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615187217, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615188283, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615188332, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615188373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615188379, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615189248, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615189303, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615189341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615189348, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615190973, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615191014, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615191059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615191066, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615192254, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615192298, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615192346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615192353, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615193392, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615193443, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615193481, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615193491, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615194369, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615194418, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615194470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615194477, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615195530, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615195575, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615195614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615195620, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615196570, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615196609, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615196651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615196658, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615198522, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615198888, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615198934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615198941, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615199951, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615199988, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615200030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615200036, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615201125, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615201173, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615201220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615201226, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615202130, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615202169, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615202206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615202213, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615203329, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615203366, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615203405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615203412, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615204503, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615204541, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615204591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615204598, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615205503, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615205541, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615205580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615205585, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615206630, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615206674, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615206715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615206724, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615207931, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615208012, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615208083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615208091, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615209058, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615209098, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615209143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615209149, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615210230, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615210267, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615210307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615210313, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615211206, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615211246, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615211342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615211349, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615212575, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615212615, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615212769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615212777, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615213664, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615213702, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615213747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615213754, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615214792, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615214843, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615214893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615214904, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615215915, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615215955, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615215995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615216003, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615217245, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615217294, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615217339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615217346, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615218318, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615218355, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615218394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615218400, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615219407, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615219446, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615219487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615219522, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615220529, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615220568, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615220614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615220621, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615221711, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615221751, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615221792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615221798, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615222702, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615222742, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615222862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615222868, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615223767, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615223811, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615223863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615223893, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615225057, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615225098, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615225143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615225151, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615226041, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615226090, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615226130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615226136, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615227023, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615227063, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615227105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615227111, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615228071, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615228108, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615228162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615228187, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615229336, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615229374, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615229415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615229422, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615230254, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615230305, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615230342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615230348, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615231227, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615231264, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615231306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615231312, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615232126, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615232165, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615232204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615232227, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615233268, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615233312, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615233352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615233359, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615234377, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615234436, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615234509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615234515, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615235479, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615235517, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615235557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615235565, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615236597, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615236637, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615236689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615236711, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615237647, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615237702, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615237881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615237889, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615238823, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615238864, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615238916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615238922, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615240938, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615240979, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615241026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615241033, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615242149, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615242186, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615242229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615242255, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615243308, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615243357, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615243397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615243403, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615244415, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615244477, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615244519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615244525, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615245659, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615245709, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615245748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615245754, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615246610, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615246649, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615246702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615246740, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615247562, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615247612, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615247650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615247657, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615248583, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615248621, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615248673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615248678, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615249632, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615249680, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615249761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615249769, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615250655, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615250705, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615250753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615250781, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615251719, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615251881, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615251925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615251931, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615252984, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615253336, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615253381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615253388, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615254658, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615255159, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615255204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615255210, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615256328, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615256377, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615256419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615256441, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615257487, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615257752, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615257815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615257823, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615258817, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615259212, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615259257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615259263, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615260360, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615260701, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615260763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615260770, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615261889, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615262027, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615262081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615262087, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615262959, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615263097, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615263150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615263157, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615264223, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615264357, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615264407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615264414, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615265378, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615265525, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615265571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615265577, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615266415, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615266555, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615266600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615266607, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615267428, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615268211, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615268259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615268282, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615269561, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615269600, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615269642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615269649, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615270650, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615270691, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615270738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615270749, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615272179, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615272281, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615272337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615272343, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615274450, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615274531, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615274577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615274584, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615276846, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615276886, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615277130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615277137, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615278352, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615278392, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615278437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615278442, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615279985, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615280027, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615280092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615280100, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615282129, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615282178, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615282220, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615282230, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615283779, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615284103, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615284352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615284358, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680576615285611, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1680576615285753, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615285806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615286417, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1680576615287279, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680576615287325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680576615287330, "dur":41103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680576615328484, "dur":77749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614959662, "dur":51, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614959713, "dur":4881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614964596, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1680576614964635, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614964683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614966524, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1680576614968291, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1680576614968304, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614968347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614968685, "dur":7158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1680576614975859, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576614975879, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614975928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614976270, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576614978912, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial.exe" }}
+,{ "pid":12345, "tid":3, "ts":1680576614978958, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614979027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614979032, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial.exe" }}
+,{ "pid":12345, "tid":3, "ts":1680576614980447, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1680576614980466, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614980513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576614980876, "dur":295772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1680576615276666, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615276707, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615276750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615276757, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615278286, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615278327, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615278389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615278397, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615281975, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615282016, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615282078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615282086, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615283704, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615283742, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615283783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615283788, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615285380, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615285586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615285593, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680576615287251, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1680576615287295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615287374, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1680576615288993, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1680576615289328, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615289391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615289402, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1680576615290610, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680576615290663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615290670, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680576615293232, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1680576615293277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615293285, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1680576615294668, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1680576615294778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680576615294785, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MNEILL_FPS_Tutorial_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1680576615295921, "dur":110317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614959883, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614959883, "dur":4703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614964595, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1680576614964633, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614964694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614966538, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1680576614968295, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680576614968311, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614968354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614968785, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680576614970146, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680576614970162, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614970216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614970221, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680576614971024, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680576614971039, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614971085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614971477, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680576614976576, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680576614976593, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614976631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680576614976636, "dur":429557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Marcus/OneDrive - Concordia College/VET/Builds/MNEILL_GameDevBasics/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680576615406213, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1680576615406214, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680576615410013, "dur":1946, "ph":"X", "name": "ProfilerWriteOutput" }
+,
